@@ -1,4 +1,17 @@
 # BoardgameListingWebApp
+## How to Run
+
+- clone repositary to server
+- to access an boardgame application we need java and maven on server
+- install java and maven on server
+- go to boardgame dir - 'cd Boardgame' then
+- build the project  -  'maven package'
+- ' cd target/ '
+- java -jar <jar file name>
+- check on the browser " server IP:8080 "
+
+
+
 
 ## Description
 
@@ -42,12 +55,10 @@ This web application displays lists of board games and their reviews. While anyo
 - Schema.sql file to customize the schema and input initial data
 - Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
 
-## How to Run
 
-1. Clone the repository
-2. Open the project in your IDE of choice
-3. Run the application
-4. To use initial user data, use the following credentials.
-  - username: bugs    |     password: bunny (user role)
-  - username: daffy   |     password: duck  (manager role)
-5. You can also sign-up as a new user and customize your role to play with the application! 😊
+
+
+
+
+
+
